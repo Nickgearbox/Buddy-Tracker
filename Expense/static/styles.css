@@ -1,0 +1,86 @@
+body{
+    padding: 25px;
+  }
+  .title {
+      color: #5C6AC4;
+  }
+  h1{
+    position: relative;
+    bottom: 70px;
+  }
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+
+  header {
+    background-color: #4fdcf8;
+    color: #fff;
+    padding: 1px;
+    text-align: center;
+    height:80px;
+  }
+
+  #expenses {
+    width: 60%;
+    margin: 1em auto;
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1em;
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #4fdcf8;
+    color: #fff;
+  }
+
+  form {
+    width: 500px;
+    margin: 1em auto;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  label, input, button {
+    display: block;
+    margin-bottom: 1em;
+  }
+
+  button {
+    background-color: #fbbe3cbd;
+    color: #fff;
+    padding: 0.8em;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+  }
+
+  #totalExpense {
+    margin-top: 1em;
+    font-size: 18px;
+  }
+  img{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    right: 350px;
+    top: 5px;
+    border-radius: 50px;
+  }
